@@ -1,4 +1,3 @@
-
 def win_logic(usr, cmp):
     """
 
@@ -8,8 +7,8 @@ def win_logic(usr, cmp):
     """
 
     if (usr == 'R' and cmp == 'S') \
-        or \
+            or \
             (usr == 'S' and cmp == 'P') \
-        or \
+            or \
             (usr == 'P' and cmp == 'R'):
         return True
