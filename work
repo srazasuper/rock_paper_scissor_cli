@@ -1,0 +1,11 @@
+Locally
+pip install -e .
+publishing package
+
+python setup.py sdist created distribution.
+pip install twine
+twine.exe upload dist/*. # This will upload to pypi
+https://pypi.org/project/rockgame/0.1.0/#description
+pip install rockgame
+
+
