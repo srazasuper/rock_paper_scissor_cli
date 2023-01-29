@@ -14,7 +14,7 @@ from setuptools import find_packages, setup, Command
 # Package meta-data.
 NAME = 'rockgame'
 DESCRIPTION = 'Rock scissor paper game'
-URL = 'https://github.com/me/myproject'
+URL = 'https://github.com/srazasuper/rock_paper_scissor_cli'
 EMAIL = 'sraza@linuxmail.org'
 AUTHOR = 'Syed Raza'
 REQUIRES_PYTHON = '>=3.6.0'
@@ -23,7 +23,6 @@ VERSION = '0.1.0'
 # What packages are required for this module to be executed?
 REQUIRED = [
     'click'
-    # 'requests', 'maya', 'records',
 ]
 
 # What packages are optional?
